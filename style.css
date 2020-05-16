@@ -1,0 +1,112 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9 {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bgimg-1 {
+	background-image: url("https://images.unsplash.com/photo-1484070062320-c03d0bac24fe?ixlib=rb-0.3.5&s=f0e0068e65cc109b0a92ce62723dc56c&auto=format&fit=crop&w=1356&q=80");
+	min-height: 100%
+}
+
+.bgimg-2 {
+	background-image: url("https://images.unsplash.com/photo-1520283451192-c3b05d7db25b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0e6baa775fe93de35e4bfb8b5e6a018&auto=format&fit=crop&w=1350&q=80");
+	min-height: 100%;
+}
+
+.bgimg-3 {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/fd/Jan_Josefsz._van_Goyen_-_A_Scene_on_the_Ice_-_Google_Art_Project.jpg");
+	min-height: 100%
+}
+
+.bgimg-4 {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1c/Hendrick_Avercamp_-_A_Scene_on_the_Ice_-_WGA01076.jpg");
+	min-height: 100%
+}
+
+.bgimg-5 {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4a/Good_old_days_of_ice_hockey.png");
+	min-height: 100%
+}
+
+.bgimg-6 {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2d/Montreal_Hockey_Match_Victoria_Rink.jpg");
+	min-height: 100%;
+}
+
+.bgimg-7 {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Toronto_Arenas.jpg");
+	min-height: 100%;
+}
+
+.bgimg-8 {
+	background-image: url("https://media.giphy.com/media/rna7Q7L5PdQw8/giphy.gif");
+	min-height: 100%;
+}
+
+.bgimg-9 {
+	background-image: url("https://images.unsplash.com/photo-1468465226960-8899e992537c?ixlib=rb-0.3.5&s=ce169cba935db0996295108a1e44c1ce&auto=format&fit=crop&w=1506&q=80");
+	min-height: 100%;
+}
+
+
+.caption {
+	position: absolute;
+	left: 0;
+	top: 20%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+
+.caption h1, h2.border {
+	background-color: #111;
+	color: #fff;
+	padding: 1rem;
+	letter-spacing: 0.5rem;
+	max-width: 50%;
+	margin: 1rem auto;
+	font-weight: 400;
+
+}
+
+.caption h1{
+	font-size: 2rem;
+}
+
+.caption h2 {
+	font-size: 1rem;
+}
+
+.slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8{
+	background-color: white;
+	text-align: center;
+	padding: 5rem 4rem;
+
+}
+
+.caption-body {
+	font-size: 2rem;
+}
+
+.quote {
+
+	text-align: justify;
+	border-left: solid 0.5rem dodgerblue;
+	padding: 1.5rem;
+
+}
+
+a {
+  color: white;
+}
+
+
